@@ -1,0 +1,31 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order - My E-commerce Site</title>
+    <link rel="stylesheet" href="CSS">
+</head>
+<body>
+    <header>
+        <h1>Order from My E-commerce Site</h1>
+    </header>
+    <main>
+        <h2>Your Order</h2>
+        <p>Select the items you want to order.</p>
+        <form action="payment.html" method="post">
+            <label for="product">Product:</label>
+            <select id="product" name="product">
+                <option value="product1">Product 1</option>
+                <option value="product2">Product 2</option>
+                <option value="product3">Product 3</option>
+            </select><br>
+            <label for="quantity">Quantity:</label>
+            <input type="number" id="quantity" name="quantity" required><br>
+            <button type="submit">Order</button>
+        </form>
+    </main>
+    <footer>
+        <p>&copy; 2024 My E-commerce Site</p>
+    </footer>
+</body>
+</html>
